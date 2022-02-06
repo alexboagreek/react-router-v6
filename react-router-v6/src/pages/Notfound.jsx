@@ -1,5 +1,12 @@
+import { Link } from 'react-router-dom'
+
 const Notfoundpage = () => {
-    return <h1>Hello from Notfound Page</h1>
+    return (
+        <div>
+            This page doesn't exist. Go <Link to="/">Home</Link>
+        </div>
+    
+    )
 }
 
 export { Notfoundpage };
